@@ -38,15 +38,60 @@
       text-decoration: underline;
     }
 
-    .header-content {
+    .container {
       display: flex;
-      flex-direction: column;
+      justify-content: flex-start;
       align-items: flex-start;
+      max-width: 100%;
+      margin: 2rem auto;
     }
 
-    .center {
-      width: 100%;
+    main {
+      flex: 9;
+      padding: 1rem;
     }
+
+      aside {
+        flex: 1.5; 
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+     article {
+      background-color: #fff;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    article h2 {
+      font-size: 1.75rem;
+      color: #333;
+      margin-top: 0;
+    }
+
+    article p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #666;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    .small-image {
+      max-width: 70%; 
+      height: auto;
+    }
+    .center {
+ width: 100%;
+}
   </style>
 </head>
 <body>
@@ -58,10 +103,8 @@
       <a href="subpage4.html">seznam mých kamarádů od nejlepších po nejhorší</a>
       <a href="subpage5.html">kdo mi chce poslat peníze, tak sem</a>
     </div>
-    <div class="header-content">
-      <img src="header_3.jpg" alt="Header" class="center">
-      <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
-    </div>
+    <p><img src="header_3.jpg" alt="Header" class="center"></p>
+     <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
   </header>
   <div class="container">
     <aside>
