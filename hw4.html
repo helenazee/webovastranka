@@ -14,6 +14,15 @@
     header {
       background-color: #88acd0;
       padding: 1rem;
+      display: flex; /* Add this */
+      justify-content: space-between; /* Add this */
+      align-items: center; /* Add this */
+    }
+
+    .header-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
     }
 
     header h1 {
@@ -104,9 +113,9 @@
       <a href="subpage4.html">seznam mých kamarádů od nejlepších po nejhorší</a>
       <a href="subpage5.html">kdo mi chce poslat peníze, tak sem</a>
     </div>
-    <div>
-    <p><img src="header_3.jpg" alt="Header" class="center"></p>
-     <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
+     <div class="header-content">
+      <img src="header_3.jpg" alt="Header" class="center">
+      <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
     </div> 
   </header>
   <div class="container">
