@@ -14,13 +14,17 @@
     header {
       background-color: #88acd0;
       padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     header h1 {
       color: #fff;
-      font-size: 2rem;
+      font-size: 4rem;
       margin: 0;
-      text-align: left;
+      text-align: right;
+      flex: 1;
     }
 
     .header-links {
@@ -51,16 +55,16 @@
       padding: 1rem;
     }
 
-      aside {
-        flex: 1.5; 
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-}
+    aside {
+      flex: 1.5;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-     article {
+    article {
       background-color: #fff;
       padding: 1rem;
       margin-bottom: 2rem;
@@ -89,13 +93,15 @@
       max-width: 70%; 
       height: auto;
     }
-    .center {
- width: 100%;
-}
+    .header-image {
+      max-width: 50%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
   <header>
+    <img src="header_3.jpg" alt="Header" class="header-image">
     <div class="header-links">
       <a href="subpage1.html">pikantnosti</a>
       <a href="subpage2.html">životní zážitky</a>
@@ -103,8 +109,7 @@
       <a href="subpage4.html">seznam mých kamarádů od nejlepších po nejhorší</a>
       <a href="subpage5.html">kdo mi chce poslat peníze, tak sem</a>
     </div>
-    <p><img src="header_3.jpg" alt="Header" class="center"></p>
-     <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
+    <h1>ZÁŽITKY ZE ŽIVOTA A DALŠÍ PIKANTNOSTI</h1>
   </header>
   <div class="container">
     <aside>
